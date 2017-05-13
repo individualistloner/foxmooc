@@ -1,0 +1,77 @@
+.news{
+    margin-left: 20px;
+    padding-top: 25px;
+    height: 380px;
+    background-color: #eee;
+}
+
+.news-ul{
+    background-color: #FFF;
+    height:300px;
+    border-radius: 6px;
+}
+.news-ul h3{
+    text-align: center;
+    border-bottom: 1px solid #EEE;
+}
+
+.news-ul ul li {
+    position: relative;
+    padding: 5px 10px;
+}
+.news-ul ul li a {
+    display: block;
+}
+.news-ul ul li span {
+    position: absolute;
+    top: 6px;
+    right: 35px;
+}
+
+/*推荐*/
+
+.mooc-recommended {
+    background-color: #EEEEEE;
+    margin-top: 40px;
+    padding:40px 0;
+    margin-bottom:40px ;
+}
+
+.mooc-recommended h1 {
+    border-left:3px solid #10b67c;
+    padding-left: 10px;
+    font-family: 微软雅黑, "Microsoft YaHei";
+    font-size: 24px;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.course-item {
+    float: left;
+    height: 200px;
+    padding: 8px;
+}
+
+.course-item:hover {
+    background-color: #fff;
+    box-shadow:2px 2px 10px#909090;
+}
+.course-item .course-img{
+    width: 100%;
+    height: 67%;
+}
+.course-item .course-img img{
+    width: 100%;
+    height:100%;
+}
+.course-title a , .course-title a:hover{
+    display: block;
+    padding: 5px 0;
+    font-size: 18px;
+    font-family: 微软雅黑, "Microsoft YaHei";
+    color: #272a41;
+    text-decoration: none;
+}
+

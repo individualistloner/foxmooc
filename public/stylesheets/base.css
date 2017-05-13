@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family:"SimSun" ,"宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+/*清楚浮动*/
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a{color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+/*头部*/
+.mooc-head{
+    height: 80px;
+    background-color: #fff;
+    border: none;
+}
+
+.mooc-head .mooc-head-a{
+    height: 80px;
+    line-height: 80px;
+    color: #10b67c;
+    font-size: 20px;
+}
+
+.mooc-head-input{
+    width: 300px;
+    height: 40px;
+    background: #f0f5f9;
+    border-radius: 4px;
+    padding: 0 24px 0 12px;
+
+}
+.mooc-head .mooc-head-form {
+    height: 80px;
+}
+
+.mooc-head .mooc-head-form div{
+    position: relative;
+    padding-top: 14px;
+    padding-left: 160px;
+}
+.mooc-head .mooc-head-form div .mooc-head-icon {
+    position: absolute;
+    right: 240px;
+    top: 16px;
+    height: 36px;
+    width: 24px;
+    background: #f0f5f9;
+}
+
+.mooc-head ul li {
+    height: 80px;
+    line-height: 80px;
+}
+
+.mooc-head ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #272a41;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mooc-banner{
+
+    background: #272a41;
+}
+
+.mooc-banner ul li a {
+    color: #FFF;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+.mooc-banner ul li a:hover{
+    background-color: #272a41;
+}
+
+footer{
+    padding: 30px;
+    background-color: #272a41;
+}
+
+footer p{
+    text-align: center;
+    margin: 0;
+    height: 40px;
+    line-height:40px;
+    font-size: 14px;
+    color: #FFFFFF;
+}

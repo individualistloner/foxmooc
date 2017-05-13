@@ -1,0 +1,28 @@
+.content{
+    background-color: #F0F5F9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.login-form{
+    margin: 50px auto;
+    width: 400px;
+    min-height: 450px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: #fff;
+    padding: 65px 45px;
+    border: 1px solid #e4ecf3;
+
+}
+.login-form .help a{
+    display: inline-block;
+    margin-top:15px;
+    margin-right:40px;
+    color: #333;
+    text-decoration: none;
+}
+.login-form .sb {
+    margin-top:30px;
+}
